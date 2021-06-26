@@ -1,0 +1,16 @@
+{
+  "name": "cmake-js-example",
+  "version": "1.0.0",
+  "description": "My example project tha uses cmake-js.",
+  "main": "index.js",
+  "author": "Hal@shurabaP <harunyann@hotmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "cmake-js": "^6.1.0"
+  },
+  "scripts": {
+    "install": "cmake-js compile",
+    "start": "node ."
+  }
+}
